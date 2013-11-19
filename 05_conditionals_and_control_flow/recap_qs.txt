@@ -1,0 +1,12 @@
+What does the following evaluate to?
+
+  not True and False or True
+
+  not False and True and False or False
+
+  False or True and False
+
+  not (False and True and False)
+
+  not False and True and False
+
