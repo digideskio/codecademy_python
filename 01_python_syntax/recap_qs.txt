@@ -1,0 +1,16 @@
+What is a variable?
+
+What is an integer? float? boolean?
+
+How do you reassign a variable's value?
+
+How many spaces should be used when indenting?
+
+Give examples of the following:
+  Addition
+  Subtraction
+  Multiplication
+  Division
+  Modulus
+  Exponentiation
+
