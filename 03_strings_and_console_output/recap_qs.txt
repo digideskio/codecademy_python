@@ -1,0 +1,5 @@
+How do you access the 3rd letter in the string "Help me!"?
+
+How do you get an uppercase version of a string?
+
+Assign two variables with strings, and then print them out using %s and %.
