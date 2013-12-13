@@ -17,6 +17,8 @@ tyler = {
     "tests": [100.0, 100.0]
 }
 
+students = [lloyd, alice, tyler]
+
 # Add your function below!
 def average(lst):
     sum = 0
@@ -46,4 +48,13 @@ def get_letter_grade(score):
         if score < grade_range["max"] and score >= grade_range["min"]:
             return grade_range["letter"]
 
-print get_letter_grade(get_average(lloyd))
+def get_class_average(class_list):
+    averages = []
+    for student in class_list:
+        averages.append(get_average(student))
+    return average(averages)
+
+class_average = get_class_average(students)
+print class_average
+print get_letter_grade(class_average)
+
